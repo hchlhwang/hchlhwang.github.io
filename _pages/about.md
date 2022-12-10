@@ -20,7 +20,10 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I received my B.S. in Robotics Engineering from [Hanyang University at Ansan](http://www.hanyang.ac.kr/), Republic of Korea, in 2019. 
-I previously worked a research intern at the [Artificial Intelligence & Robotics Institute (AIRI)](https://www.airi.kist.re.kr) at [Korea Institute of Science and Technology (KIST)](https://eng.kist.re.kr/) from 2019 to 2020. 
-Before joining KIST, I participated research as a research assistant in [Human Centered Robotics Laboratory](https://sites.utexas.edu/hcrl/) lead by [Prof. Luis Sentis](https://www.ae.utexas.edu/people/faculty/faculty-directory/sentis) at the [University of Texas at Austin](https://www.utexas.edu/).
-I am currently pursuing my Ph.D. in Computer Science at the [University of Massachusetts Amherst](https://www.umass.edu) fortunate to be advised by [Prof. Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun).
+I received my B.S. in Robotics Engineering from Hanyang University ERICA, Republic of Korea, in 2019. 
+I previously worked as a research intern at the Visual Intelligence Group at Korea Institute of Science and Technology (KIST) from 2019 to 2020 with the support from Dr. [Ig-Jae Kim](https://sites.google.com/view/ijkim) and Dr. [Junghyun Cho](https://junghyuncho.notion.site/Junghyun-Cho-36f85eff362148dab9e23e6628fe3551). 
+Before joining KIST, I participated research in Human Centered Robotics Laboratory lead by Prof. [Luis Sentis](https://www.ae.utexas.edu/people/faculty/faculty-directory/sentis) at the University of Texas at Austin.
+I am currently pursuing my Ph.D. in Computer Science at the University of Massachusetts Amherst advised by Prof. [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun).
+<!-- fortunate to be  -->
+
+I am teaching and guiding robots to <a style='color:#B509AC;'> perceive</a> accurately and <a style='color:#B509AC;'> locomote</a> roboustly to safely and efficiently support people in the real-world. I am also interested in analyzing the interaction between human and robots.
