@@ -2,19 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: I am interested in building <a style='color:rgb(150,180,255)'> robots </a> that can help people with their <a style='color:rgb(150,180,255)'>mobility</a>.
+# <a href="http://example.com/" style="color:rgb(255,0,0);">
 profile:
+# <p style="color:#FF0000";>
   align: right
   image: hochul.png # prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Lederle Graduate Research Center Lowrise A308</p>
-    <p>740 N Pleasant St</p>
-    <p>Amherst, Massachusetts 01003</p>
+  # address: >
+  #   <p>Lederle Graduate Research Center Lowrise A308</p>
+  #   <p>740 N Pleasant St</p>
+  #   <p>Amherst, Massachusetts 01003</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+# selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
