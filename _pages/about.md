@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: I am interested in building <a style='color:rgb(150,180,255)'> robots </a> that can help people with their <a style='color:rgb(150,180,255)'>mobility</a>.
+subtitle: I am interested in building <a style='color:#B509AC;'> robots </a> that can help people with their <a style='color:#B509AC;'>mobility</a>.
 # <a href="http://example.com/" style="color:rgb(255,0,0);">
 profile:
 # <p style="color:#FF0000";>
