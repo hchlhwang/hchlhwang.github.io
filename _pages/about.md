@@ -6,20 +6,19 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hochul.png # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Lederle Graduate Research Center Lowrise A308</p>
+    <p>740 N Pleasant St</p>
+    <p>Amherst, Massachusetts 01003</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my B.S. in Robotics Engineering from [Hanyang University at Ansan](http://www.hanyang.ac.kr/), Republic of Korea, in 2019. 
+I previously worked a research intern at the [Artificial Intelligence & Robotics Institute (AIRI)](https://www.airi.kist.re.kr) at [Korea Institute of Science and Technology (KIST)](https://eng.kist.re.kr/) from 2019 to 2020. 
+Before joining KIST, I participated research as a research assistant in [Human Centered Robotics Laboratory](https://sites.utexas.edu/hcrl/) at the [University of Texas at Austin](https://www.utexas.edu/).
+I am currently pursuing my Ph.D. in Computer Science at the [University of Massachusetts Amherst](https://www.umass.edu) fortunate to be advised by [Prof. Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun).
