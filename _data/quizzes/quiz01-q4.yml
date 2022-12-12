@@ -4,11 +4,28 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: Select the option with all correct pairs.
+   question: <a style='color:#B509AC;'>Jacobian.</a> Select the option with all correct pairs.
    items:
-    - choice: True
+    - choice:             
+            Joint position → Cartesian position (Forward kinematics) <br>
+            Joint position ← Cartesian position (Inverse kinematics) <br>
+            Joint velocity → Cartesian velocity (Pseudo inverse jacobian) <br>
+            Joint velocity ← Cartesian velocity (Jacobian) <br>
+      correct: false
+    - choice: Joint position → Cartesian position (Forward kinematics) <br>
+            Joint position ← Cartesian position (Inverse kinematics) <br>
+            Joint velocity → Cartesian velocity (Jacobian) <br>
+            Joint velocity ← Cartesian velocity (Pseudo inverse jacobian) <br>
       correct: true
-    - choice: False
+    - choice: Joint position → Cartesian position (Inverse kinematics) <br>
+            Joint position ← Cartesian position (Forward kinematics) <br>
+            Joint velocity → Cartesian velocity (Pseudo inverse jacobian) <br>
+            Joint velocity ← Cartesian velocity (Jacobian) <br>
+      correct: false
+    - choice: Joint position → Cartesian position (Inverse kinematics) <br>
+            Joint position ← Cartesian position (Forward kinematics) <br>
+            Joint velocity → Cartesian velocity (Jacobian) <br>
+            Joint velocity ← Cartesian velocity (Pseudo inverse jacobian) <br>
       correct: false
   #  followup: | 
   #     inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.

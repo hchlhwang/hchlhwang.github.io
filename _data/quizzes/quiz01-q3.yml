@@ -4,15 +4,15 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: <a style='color:#B509AC;'>Grubler's law.</a> Select all correct statements of the following equation</br> $$m (N-1) - \sum_{i=1}^J (m - f_i)$$?
+   question: <a style='color:#B509AC;'>Grubler's law.</a> Select all correct statements of the following equation? $$m (N-1) - \sum_{i=1}^J (m - f_i).$$
    items:
     - choice: $J$ is the number of links
+      correct: false
+    - choice: $m$ is the dimension of the configuration space
       correct: true
-    - choice: $J$ is the number of links
-      correct: true
-    - choice: $J$ is the number of links
-      correct: true
-    - choice: $J$ is the number of links
+    - choice: $N$ is the number of links excluding the ground link
+      correct: false
+    - choice: $f_i$ replies to the joint constraints
       correct: true
   #  followup: | 
   #     inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.

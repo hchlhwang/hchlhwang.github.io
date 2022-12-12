@@ -4,13 +4,32 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: What is the $SO(3)$ for the rotation around the $zz$-axis?  
+   question: What is the $SO(3)$ for the rotation around the $z$-axis?  
    items:
-    - choice: True
-      correct: true
-    - choice: False
+    - choice: \begin{pmatrix}
+            1 & 0 & 0\\
+            0 & \cos\theta & -\sin\theta \\
+            0 & \sin\theta & \cos\theta
+            \end{pmatrix}
       correct: false
-  #  followup: | 
+    - choice: \begin{pmatrix}
+            1 & 0 & 0\\
+            0 & \cos\theta & -\sin\theta \\
+            0 & \sin\theta & \cos\theta
+            \end{pmatrix}
+      correct: false
+    - choice: \begin{pmatrix}
+            \cos\theta & -\sin\theta & 0 \\
+            \sin\theta & \cos\theta & 0 \\
+            0 & 0 & 1
+            \end{pmatrix}
+      correct: true
+    - choice: \begin{pmatrix}
+            \cos\theta & \sin\theta & 0 \\
+            -\sin\theta & \cos\theta & 0 \\
+            0 & 0 & 1
+            \end{pmatrix}
+      correct: false  #  followup: | 
   #     inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
 # To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:

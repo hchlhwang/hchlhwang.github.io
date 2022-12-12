@@ -6,9 +6,45 @@ questions:
  - type: "multiple-choice"
    question: <a style='color:#B509AC;'>3D Kinematics.</a> Find the forward kinematkcs of a manipulator using $SE(3)$.
    items:
-    - choice: True
+    - choice: {}_{0}T_3 = {}_{0}T_1 \, {}_{1}T_2 \, {}_{2}T_3 = \\
+            \begin{pmatrix}
+            c\theta_1 & s\theta_1 & 0 & 0 \\
+            -s\theta_1 & c\theta_1 & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            1 & 0 & 0 & \theta_2 \\
+            0 & 1 & 0 & 0 \\
+            0 & 0 & 1 & L_1 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            c\theta_3 & -s\theta_3 & 0 & L_2 \\
+            s\theta_3 & c\theta_3 & 0 & 0\\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
       correct: true
-    - choice: False
+    - choice: {}_{0}T_3 = {}_{0}T_1 \, {}_{1}T_2 \, {}_{2}T_3 = \\
+            \begin{pmatrix}
+            c\theta_1 & -s\theta_1 & 0 & 0 \\
+            s\theta_1 & c\theta_1 & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            1 & 0 & 0 & \theta_2 \\
+            0 & 1 & 0 & 0 \\
+            0 & 0 & 1 & L_1 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            c\theta_3 & -s\theta_3 & 0 & L_2 \\
+            s\theta_3 & c\theta_3 & 0 & 0\\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
       correct: false
   #  followup: | 
   #     inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.

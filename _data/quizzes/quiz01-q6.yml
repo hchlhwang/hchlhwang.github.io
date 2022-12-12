@@ -4,12 +4,17 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: What is the correct equation to transform $so(3)$ to $SO(3)$?
+   question: <a style='color:#B509AC;'>so(3) to SO(3)</a>  What is the correct equation to transform $so(3)$ to $SO(3)$?
    items:
-    - choice: True
+    - choice: $$e^{[\hat{\omega}]\theta} = I + \sin\theta[\hat\omega] + (1-\cos\theta)[\hat\omega]^2$$ 
       correct: true
-    - choice: $so(3)$ 
+    - choice: $$e^{[\hat\omega]\theta} = I + \sin\theta[\hat\omega] - (1+\cos\theta)[\hat\omega]^2$$
       correct: false
+    - choice: $$e^{[\hat\omega]\theta} = I - \sin\theta[\hat\omega] + (1-\cos\theta)[\hat\omega]^2$$ 
+      correct: false
+    - choice: $$e^{[\hat\omega]\theta} = I + \sin\theta[\hat\omega] - (1-\cos\theta)[\hat\omega]^2$$ <br>
+      correct: false
+
   #  followup: | 
   #     inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
