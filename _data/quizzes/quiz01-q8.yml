@@ -4,7 +4,7 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: <a style='color:#B509AC;'>3D Kinematics.</a> Find the forward kinematkcs of a manipulator using $SE(3)$.
+   question: <b>8. <a style='color:#B509AC;'>3D Kinematics.</a></b> Find the forward kinematkcs of a manipulator using $SE(3)$.
    items:
     - choice: $${}_{0}T_3 = {}_{0}T_1 \, {}_{1}T_2 \, {}_{2}T_3 = \\
             \begin{pmatrix}
@@ -25,7 +25,7 @@ questions:
             0 & 0 & 1 & 0 \\
             0 & 0 & 0 & 1
             \end{pmatrix}$$
-      correct: true
+      correct: false
     - choice: $${}_{0}T_3 = {}_{0}T_1 \, {}_{1}T_2 \, {}_{2}T_3 = \\
             \begin{pmatrix}
             c\theta_1 & -s\theta_1 & 0 & 0 \\
@@ -43,6 +43,46 @@ questions:
             c\theta_3 & -s\theta_3 & 0 & L_2 \\
             s\theta_3 & c\theta_3 & 0 & 0\\
             0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}$$
+      correct: false
+    - choice: $${}_{0}T_3 = {}_{0}T_1 \, {}_{1}T_2 \, {}_{2}T_3 = \\
+            \begin{pmatrix}
+            c\theta_1 & -s\theta_1 & 0 & 0 \\
+            s\theta_1 & c\theta_1 & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            1 & 0 & 0 & \theta_2 \\
+            0 & 1 & 0 & 0 \\
+            0 & 0 & 1 & L_1 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            1 & 0 & 0 & L_2 \\
+            0 & c\theta_3 & -s\theta_3 & 0 \\
+            0 & s\theta_3 & c\theta_3 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}$$
+      correct: true
+    - choice: $${}_{0}T_3 = {}_{0}T_1 \, {}_{1}T_2 \, {}_{2}T_3 = \\
+            \begin{pmatrix}
+            c\theta_1 & s\theta_1 & 0 & 0 \\
+            -s\theta_1 & c\theta_1 & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            1 & 0 & 0 & \theta_2 \\
+            0 & 1 & 0 & 0 \\
+            0 & 0 & 1 & L_1 \\
+            0 & 0 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+            1 & 0 & 0 & L_2 \\
+            0 & c\theta_3 & s\theta_3 & 0 \\
+            0 & -s\theta_3 & c\theta_3 & 0 \\
             0 & 0 & 0 & 1
             \end{pmatrix}$$
       correct: false

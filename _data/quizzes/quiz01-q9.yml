@@ -4,12 +4,31 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: What is the $SO(3)$ for the rotation around the $zz$-axis?  
+   question: <b>9. <a style='color:#B509AC;'>Velocity.</a></b> What is the velocity of the point indicted with the blue arrow?  
    items:
-    - choice: True
-      correct: true
-    - choice: False
+    - choice: $$\begin{pmatrix}
+            v \\
+            \omega l
+            \end{pmatrix}$$
       correct: false
+    - choice: $$\begin{pmatrix}
+            \omega \\
+            \omega + vl
+            \end{pmatrix}
+              $$
+      correct: false
+    - choice: $$\begin{pmatrix}
+            v \\
+            \omega + vl
+            \end{pmatrix}
+              $$
+      correct: false
+    - choice: $$\begin{pmatrix}
+            v \\
+            v + \omega l
+            \end{pmatrix}
+              $$
+      correct: true
   #  followup: | 
   #     inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 

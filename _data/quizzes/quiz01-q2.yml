@@ -4,7 +4,7 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: <a style='color:#B509AC;'>Cosine law.</a> What is $c^2$?
+   question: <b>2. <a style='color:#B509AC;'>Cosine law.</a></b> What is $c^2$?
    items:
     - choice: $a^2 + b^2 - 2ab \sin\theta$
       correct: false

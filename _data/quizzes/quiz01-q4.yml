@@ -4,7 +4,7 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: <a style='color:#B509AC;'>Jacobian.</a> Select the option with all correct pairs.
+   question: <b>4. <a style='color:#B509AC;'>Jacobian.</a></b> Select the option with all correct pairs.
    items:
     - choice:             
             Joint position → Cartesian position (Forward kinematics) <br>

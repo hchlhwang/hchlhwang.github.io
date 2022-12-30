@@ -4,7 +4,7 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: What is the $SO(3)$ for the rotation around the $z$-axis?  
+   question: <b>5. <a style='color:#B509AC;'>S0(3).</a></b> What is the $SO(3)$ for the rotation around the $z$-axis?  
    items:
     - choice: \begin{pmatrix}
             1 & 0 & 0\\

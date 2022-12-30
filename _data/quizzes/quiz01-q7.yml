@@ -4,7 +4,7 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: What is the dimension of the quaternion and what is the correct expression?
+   question: <b>7. <a style='color:#B509AC;'>Quaternion.</a></b> What is the dimension of the quaternion and what is the correct expression?
    items:
     - choice: $$q \in \mathbb{R}^4, \quad
             \begin{pmatrix}

@@ -4,7 +4,7 @@ randomized: true
 questions:
 
  - type: "multiple-choice"
-   question: <a style='color:#B509AC;'>Forward kinematics.</a> What is $x$ and $y$?
+   question: <b>1. <a style='color:#B509AC;'>Forward kinematics.</a></b> What is $x$ and $y$?
    items:
     - choice:  $$x = l_1 \cos\theta_1 + l_2 \cos\theta_2; \quad
                y = l_1 \sin\theta_1 + l_2 \sin\theta_2$$
