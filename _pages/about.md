@@ -8,7 +8,7 @@ subtitle: I am interested in building <a style='color:#B509AC;'> robots </a> tha
 profile:
 # <p style="color:#FF0000";>
   align: right
-  image: hochul.png # prof_pic.jpg
+  image: hochul.jpg # hochul.png # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>Lederle Graduate Research Center Lowrise A308</p>
