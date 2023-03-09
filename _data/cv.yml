@@ -11,17 +11,18 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Analyze interaction between human and robots.
+      items:
+        - Human-Computer Interaction
+        - Qualitative research
     - title: Generalizable visual representation learning for autonomous navigation.
       items: 
-        - Multk-task learning
-        - Visual navigation
-    - title: Analyze interaction between human and legged robots.
-      items:
-        - Qualitative research
+        - Computer Vision
+        - Visual Navigation
     - title: Imitate robust and agile locomotion behavior in dynamic systems.
       items:
         - Control 
-        - Trajectory optimization
+        - Trajectory Optimization
 
 - title: Education
   type: time_table
