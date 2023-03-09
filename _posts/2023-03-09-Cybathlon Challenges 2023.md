@@ -91,8 +91,8 @@ Thankfully, the recruitment process was relatively smooth. We have two incredibl
 
 Our team name is [FlashLight](https://cybathlon.ethz.ch/en/teams/flash-light). We aim to light up the path for the blind or visually impaired individuals to quickly accomplish tasks. 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-4">
+    <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/blog/cybathlon/team.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -100,4 +100,4 @@ Our team name is [FlashLight](https://cybathlon.ethz.ch/en/teams/flash-light). W
     FlashLight team! Some of the members are missing.
 </div>
 
-***
+<!-- *** -->
