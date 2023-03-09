@@ -87,13 +87,13 @@ Task 2: Serving food. The aim is to 1) pour water to a designated level, 2) carr
 
 ## Team
 
-Thankfully, the recruitment process was relatively smooth. We have two incredible pilots (with great atheletic abilities) and one guide dog trainer. We also have great faculty members joining. Finally, we have a wonderful members for developing hardware, software, and conducting experiments. Always thankful for everyone. Especially, thankful for my advisor for the support. 
+Thankfully, the recruitment process was relatively smooth. We have two incredible pilots (with great atheletic abilities) and one guide dog trainer. We also have great faculty members joining. Finally, we have wonderful members for developing hardware, software, and conducting experiments. Always thankful for everyone. Especially, thankful for my advisor for the support. 
 
 Our team name is [FlashLight](https://cybathlon.ethz.ch/en/teams/flash-light). We aim to light up the path for the blind or visually impaired individuals to quickly accomplish tasks. 
 
-<div class="row mt-4">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/blog/cybathlon/team.jpg" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/blog/cybathlon/team.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
