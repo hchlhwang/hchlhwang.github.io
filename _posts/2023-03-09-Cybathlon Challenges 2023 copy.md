@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: Preparation of the CYBATHLON Challenges 2023
-description: introduction of the Vision Assistance Race tasks
+title: Preparation of the CYBATHLON Challenges 2023 (1)
+description: Introduction of the Vision Assistance Race tasks
 date: 2023-03-09
 tags: cybathlon human-computer-interaction
 
