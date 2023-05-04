@@ -451,7 +451,7 @@ permalink: /VisionADL/
     </div>      
     <div class="content" id="acknowledgements">
           <p><strong>Acknowledgements</strong>:
-          Webpage created based on <a href="https://chail.github.io/latent-composition/">template</a>.
+          The website template was adopted from <a href="https://chail.github.io/anyres-gan/">Lucy Chai</a>.
     <!-- </div>
 </body>
 
