@@ -1,12 +1,3 @@
----
-layout: page
-# title: VisionADL
-permalink: /VisionADL/
-# description: A growing collection of your cool projects.
-# nav: true
-# nav_order: 2
----
-
 <html>
 
 <head>
@@ -14,8 +5,8 @@ permalink: /VisionADL/
     <title>VisionADL</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- <script type="text/javascript" src="jquery.mlens-1.0.min.js"></script> -->
-    <!-- <script type="text/javascript" src="jquery.js"></script> -->
+    <script type="text/javascript" src="jquery.mlens-1.0.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
     <style>
         body {
             font-family: 'Open-Sans', sans-serif;
@@ -261,9 +252,9 @@ permalink: /VisionADL/
         </p>
 				<font size="+2">
 					<p style="text-align: center;">
-						<a href="https://arxiv.org/pdf/2210.13368.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="https://arxiv.org/abs/2204.07156" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;
 						<a href="https://github.com/chail/anyres-gan" target="_blank">[Code]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="/assets/bibliography/visionadl.txt" target="_blank">[Bibtex]</a>
+						<a href="bibtex.txt" target="_blank">[Bibtex]</a>
 					</p>
 				</font>
 				<font size="+1">
@@ -275,9 +266,7 @@ permalink: /VisionADL/
 					</p>
 				</font>
         <p>
-            <!-- <img class='teaser-img' src='img/teaser.gif'> -->
-            <img class='teaser-img' src='/assets/img/visionadl/environment.png'>
-            
+            <img class='teaser-img' src='img/teaser.gif'></img>
         </p>
         <br>
 
@@ -313,30 +302,54 @@ permalink: /VisionADL/
 
         <h2 style="text-align:center;">Summary</h2>
 
+          <!--
+				<div class="container">
+					<div class="image">
+						<img src='img/dataset_construction.jpg' width=250px></img>
+					</div>
+					<div class="text">
+						<p>The typical preprocessing pipeline for unconditional image synthesize resizes all images to the same size, which discards available pixels. We propose a training procedure which can leverage these additional pixels from higher resolution images for image synthesis. </p>
+					</div>
+				</div>
+          -->
         <p style="text-align: center;">The typical preprocessing pipeline for unconditional image synthesize resizes all images to the same size, which discards available pixels. We propose a training procedure which can leverage these additional pixels from higher resolution images for image synthesis.
         </p>
-        <img class='summary-img' src='/assets/img/visionadl/one.jpg' style="width:40%;">
+        <img class='summary-img' src='{site.url}/assets/img/visionadl/one.jpg' style="width:40%;"></img>
         <br>
         <hr>
         <p style="text-align: center;">We treat an image as a continuous 2D surface, where real images and synthesized samples correspond to discretizations of this surface. To deal with images of varied sizes, we sample patches of a fixed size at continuous resolutions and locations.</p>
-        <img class='summary-img' src='/assets/img/visionadl/two.jpg' style="width:40%;">
+        <img class='summary-img' src='img/schematic_v5.jpg' style="width:80%;"></img>
+        <br>
+        <hr>
+        <p style="text-align: center;">Our training pipeline can handle images of different resolutions. We resize the FFHQ dataset to validate design decisions, and additionally collect images from Flickr to build our multi-size datasets.</p>
+        <img class='summary-img' src='img/dataset.jpg'></img>
+        <br>
+        <hr>
+        <p style="text-align: center;">By setting the coordinate grid appropriately, our generator is capable of synthesizing additional details as the resolution increases. 
+        </p>
+        <img class='summary-img' src='img/qualitative.jpg'></img>
+        <br>
+        <hr>
+        <p style="text-align: center;">As we extrapolate on this coordinate grid, the generated textures tend to deteriorate first, dependent on the native training image sizes.
+        </p>
+        <img class='summary-img' src='img/extrapolation.jpg'></img>
         <br>
         <hr>
         <p style="text-align: center;">We can modify our approach to synthesize on a cylindrical image plane, which naturally creates 360 degree panoramas.
-				<br>Click <a href="/assets/img/visionadl/blue_bright1.mp4">here</a> to view in video form.</p>
-				<a href="/assets/img/visionadl/blue_dark1.mp4"><img class='summary-img' src='/assets/img/visionadl/blue_dark1.mp4' style='width:30%;'><img class='summary-img' src='/assets/img/visionadl/blue_bright1.mp4' style='width:30%;'></a>
+				<br>Click <a href="http://latent-composition.csail.mit.edu/other_projects/anyres_gan/pano010-2.mp4">here</a> to view in video form.</p>
+				<a href="http://latent-composition.csail.mit.edu/other_projects/anyres_gan/pano010-2.mp4"><img class='summary-img' src='img/pano010-2.gif'></img></a>
 				<br>
-        <!-- <img class='summary-img' src='img/pano010.png'> -->
+        <img class='summary-img' src='img/pano010.png'></img>
 			</div>
       <div class="content" id="video">
         <h2 style="text-align:center;">Supplementary Video</h2>
-				<p style="text-align: center;">Click <a href="/assets/img/visionadl/blue_dark2.mp4">here</a> to view our supplementary video!</p>
+				<p style="text-align: center;">Click <a href="http://latent-composition.csail.mit.edu/other_projects/anyres_gan/supplementary_video_v4_1600_noaudio.mp4">here</a> to view our supplementary video!</p>
 				<center>
 					<iframe width="600" height="400" src="https://www.youtube.com/embed/9Y7Gvbw0qr4?rel=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</center>
       </div>
 
-			<!-- <div class="content" id="samples">
+			<div class="content" id="samples">
         <h2 style="text-align:center;">Random Samples</h2>
 				<p style="text-align: center;">Click on the panels below to view randomly generated patches from our model in comparison to super-resolution models. Our model is trained to synthesize images at continuous resolutions from random noise samples, and thus is not directly supervised with low-resolution and high-resolution pairs from real images.</p>
 				<table style="text-align: center;" class="center">
@@ -427,32 +440,27 @@ permalink: /VisionADL/
 				</table>
 				<br>
         <hr>
-    </div>       -->
+    </div>      
     <div class="content" id="references">
 
         <h2>Reference</h2>
 
-			<p>Hwang, H., Xia, T., Keita, I., Suzuki, K., Biswas, J., Lee, S. I., & Kim, D. System Configuration and Navigation of a Guide Dog Robot: Toward Animal Guide Dog-Level Guiding Work.  ICRA 2023.</p>
+			<p>L Chai, M Gharbi, E Shechtman, P Isola, R Zhang. Any-resolution training for high-resolution image synthesis. ECCV 2022.</p>
 
         <code>
-			 <!-- @inproceedings{chai2022anyresolution,<br>
+			 @inproceedings{chai2022anyresolution,<br>
 				 &nbsp;&nbsp;title={Any-resolution training for high-resolution image synthesis.},<br>
 				 &nbsp;&nbsp;author={Chai, Lucy and Gharbi, Michael and Shechtman, Eli and Isola, Phillip and Zhang, Richard},<br>
 				 &nbsp;&nbsp;booktitle={European Conference on Computer Vision},<br>
 				 &nbsp;&nbsp;year={2022}<br>
-			} -->
-      @article{hwang2022system,<br>
-      &nbsp;&nbsp;title={System Configuration and Navigation of a Guide Dog Robot: Toward Animal Guide Dog-Level Guiding Work},<br>
-      &nbsp;&nbsp;author={Hwang, Hochul and Xia, Tim and Keita, Ibrahima and Suzuki, Ken and Biswas, Joydeep and Lee, Sunghoon I and Kim, Donghyun},<br>
-      &nbsp;&nbsp;journal={arXiv preprint arXiv:2210.13368},<br>
-      &nbsp;&nbsp;year={2022}<br>
-    }
+			}
 	</code>
     </div>      
     <div class="content" id="acknowledgements">
           <p><strong>Acknowledgements</strong>:
-          The website template was adopted from <a href="https://chail.github.io/anyres-gan/">Lucy Chai</a>.
-    <!-- </div>
+          We thank Assaf Shocher for feedback and Taesung Park for dataset collection advice. LC is supported by the NSF Graduate Research Fellowship under Grant No. 1745302 and Adobe Research Fellowship. This work was started while LC was an intern at Adobe Research and was supported in part by an Adobe gift. 
+					 Recycling a familiar <a href="https://chail.github.io/latent-composition/">template</a> ;).
+    </div>
 </body>
 
-</html> -->
+</html>
