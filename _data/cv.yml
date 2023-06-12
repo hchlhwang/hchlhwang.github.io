@@ -51,13 +51,31 @@
     - title: Research Assistant
       # img: assets/img/daros.jpeg
       institution: Dynamic and Autonomous Robotic Systems Lab, UMass Amherst
-      year: 2022 - 
+      year: 2021 - 
       description:
         - title: Guide dog robot development
           contents:
             - Transfer learning and synthetic data generation 
             - Visual representation learning based navigation
             - Qualitative research with visually impaired individuals 
+
+    - title: Teaching Assistant
+      # institution: UMass Amherst
+      year: 2023 spring 
+      description:
+        - title: Robotics 
+          contents:
+            - Office hours for lectures and final project
+            - Created a <a href="https://github.com/hchlhwang/Triton">webpage</a> for the Triton robot
+
+    - title: Teaching Assistant
+      # institution: UMass Amherst
+      year: 2022 Fall 
+      description:
+        - title: Introduction to Robotics - Mechanics, Dynamics, Control
+          contents:
+            - Office hours for lectures and homeworks
+            - Made activity questions (<a href="https://hchlhwang.github.io/teaching/fall22/q1">quiz 1</a>, <a href="https://hchlhwang.github.io/teaching/fall22/q2">quiz 2</a>) to support interactive learning 
 
     - title: Research Intern
       institution: Center for Artificial Intelligence, Korea Institute of Science and Technology

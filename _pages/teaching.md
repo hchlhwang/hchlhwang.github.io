@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: teaching
 permalink: /teaching/
@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 display_categories: [TA, Study]
 horizontal: true
----
+--- -->
 
 <!-- pages/projects.md -->
 <div class="projects">

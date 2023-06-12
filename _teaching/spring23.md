@@ -12,4 +12,4 @@ Course instructor: Prof. Hao Zhang
 
 Useful links: <a href="https://hcr.cs.umass.edu/courses/compsci603/documents/Compsci_603_Syllabus_2023Spring.pdf">Course syllabus</a>.
 
-I am having TA office hours. 
+I had TA office hours and created a webpage for the final project
