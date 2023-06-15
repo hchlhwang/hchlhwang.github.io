@@ -267,18 +267,7 @@ permalink: /AvoidEvent/
 					</p>
 				</font>
 				<font size="+1">
-					<p style="text-align: center;">
-						Skip to:  &nbsp;&nbsp;
-						<a href="#abstract">[Abstract]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="#video">[Supplementary Video]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="#samples">[Random Samples]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-					</p>
 				</font>
-        <p>
-            <!-- <img class='teaser-img' src='img/teaser.gif'> -->
-            <img class='teaser-img' src='/assets/img/visionadl/environment.png'>
-            
-        </p>
         <br>
 
 		<p id="abstract"><strong>Abstract: </strong>
@@ -292,25 +281,17 @@ permalink: /AvoidEvent/
 
         <p style="text-align: center;">The overall pipeline of our framework is illustrated in the image below. Our cascaded framework consists of multiple steps: event data accumulation, data denoising, obstacle detection and tracking, trajectory prediction, and robot control. We first accumulate the sparse events to support obstacle detection in the next few steps. We then implement an event image denoising algorithm to filter out background noise. Then, the dynamic obstacle detection algorithm is introduced to segment dynamic objects. Based on the sequence of dynamic obstacle positions, we calculate the obstacle direction and predict its future trajectory. The trajectory prediction is converted to y-axis velocity commands which are provided to the robot to avoid the dynamic obstacle.
         </p>
-        <img class='summary-img' src='/assets/img/eventAvoid/scheme.png' style="width:40%;">
+        <img class='summary-img' src='/assets/img/eventAvoid/scheme.png' style="width:80%;">
         <br>
         <hr>
         <p style="text-align: center;">System configuration of the Unitree Go1 robot and the event camera is shown below. The Intel RealSense Depth Camera D455 was only used to visualize the robot-perspective viewpoint and not used for the obstacle avoidance framework.
 </p>
-        <img class='summary-img' src='/assets/img/eventAvoid/setup.png' style="width:40%;">
+        <img class='summary-img' src='/assets/img/eventAvoid/setup.png' style="width:30%;">
         <br>
         <hr>
         <p style="text-align: center;">Our experimental results are recorded below. 
-				<br>Click <a href="/assets/img/eventAvoid/experiment.png">here</a> to view in video form.</p>
-				<a href="/assets/img/eventAvoid/eventAvoidVid.mp4"><img class='summary-img' src='/assets/img/eventAvoid/eventAvoidVid.mp4' style='width:30%;'><img class='summary-img' src='/assets/img/eventAvoid/eventAvoidVid.mp4' style='width:30%;'></a>
-				<br>
-        <!-- <img class='summary-img' src='img/pano010.png'> -->
-			</div>
+        
 
-    <div class="content" id="acknowledgements">
-          <p><strong>Acknowledgements</strong>:
-          The website template was adopted from <a href="https://chail.github.io/anyres-gan/">Lucy Chai</a>.
-    <!-- </div>
-</body>
-
-</html> -->
+        <a href="/assets/img/eventAvoid/eventAvoidVid.mp4"><img class='summary-img' src='/assets/img/eventAvoid/eventAvoidVid.mp4' style='width:70%;'>
+		<br>
+   
