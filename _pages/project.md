@@ -14,3 +14,5 @@ nav_order: 1
 
 
 <a href="/AvoidEvent/"><b>Event-based highly dynamic obstacle avoidance</b></a>
+
+<a href="/Eldercare/"><b>ElderSim: A synthetic data generation platform for human action recognition in eldercare applications</b></a>
