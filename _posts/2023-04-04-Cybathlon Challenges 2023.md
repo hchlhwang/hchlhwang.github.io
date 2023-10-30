@@ -70,7 +70,7 @@ It is critical to understand the scene and to provide proper commands to the pil
 
 ## Pouring water 
 
-We utilized 
+We utilized a scale to measure the desired amound of water poured into the cup and when there are enough water poured, the vibration motors attached to the pilot's stopped vibratiing.
 
 ***
 
@@ -104,6 +104,16 @@ Task 1: Sidewalk. The aim is to reach the end line without bumping into any obst
 ***
 
 ## Placing bowl and glass
+
+I finetuned [YOLOv8](https://github.com/ultralytics/ultralytics) on our dataset collected in various viewpoints, light settings, and backgrounds. Based on the bounding boxes obtained during inference, the desired direction of placing the bowl was determined. This direction was then conveyed to the pilot via haptic feedback via vibration motors. 
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/bjo3fgSEHGo">
+</iframe>
+
+***
+
+## Acknowledgment
 
 Thankfully, the recruitment process was relatively smooth. We have two incredible pilots (with great atheletic abilities) and one guide dog trainer. We also have great faculty members joining. Finally, we have wonderful members for developing hardware, software, and conducting experiments. Always thankful for everyone. Especially, thankful for my advisor for the support. 
 
