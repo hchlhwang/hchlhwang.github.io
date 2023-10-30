@@ -113,7 +113,7 @@ src="https://www.youtube.com/embed/bjo3fgSEHGo">
 
 ***
 
-## Acknowledgment
+## Thanks
 
 Thankfully, the recruitment process was relatively smooth. We have two incredible pilots (with great atheletic abilities) and one guide dog trainer. We also have great faculty members joining. Finally, we have wonderful members for developing hardware, software, and conducting experiments. Always thankful for everyone. Especially, thankful for my advisor for the support. 
 
