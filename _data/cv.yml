@@ -11,18 +11,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Analyze interaction between human and robots.
-      items:
-        - Human-Computer Interaction
-        - Qualitative research
     - title: Generalizable visual representation learning for autonomous navigation.
       items: 
         - Computer Vision
         - Visual Navigation
-    - title: Imitate robust and agile locomotion behavior in dynamic systems.
+    - title: Analyze interaction between human and robots.
       items:
-        - Control 
-        - Trajectory Optimization
+        - Human-Computer Interaction
+        - Qualitative research
 
 - title: Education
   type: time_table
@@ -53,11 +49,11 @@
       institution: Dynamic and Autonomous Robotic Systems Lab, UMass Amherst
       year: 2021 - 
       description:
-        - title: Guide dog robot development
+        - title: Guide dog robot development for the blind and low vision people
           contents:
-            - Transfer learning and synthetic data generation 
-            - Visual representation learning based navigation
-            - Qualitative research with visually impaired individuals 
+            - Perception-based navigation system integration
+            - Safe decision making algorithm development in legged system
+            - Qualitative research to inform guide dog robot design
 
     - title: Teaching Assistant
       # institution: UMass Amherst
@@ -66,7 +62,7 @@
         - title: Robotics 
           contents:
             - Office hours for lectures and final project
-            - Created a <a href="https://github.com/hchlhwang/Triton">webpage</a> for the Triton robot
+            - Managed project Github <a href="https://github.com/hchlhwang/Triton">repo</a> for the Triton robot
 
     - title: Teaching Assistant
       # institution: UMass Amherst

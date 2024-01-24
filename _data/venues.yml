@@ -13,6 +13,10 @@
   # color: "#000080" # 
   # color: "ff781f" # orange
 
+"CHI":
+  url: https://dl.acm.org/conference/chi
+  color: "#ff781f"  
+
 "ICRA":
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
   color: "#b41c1c"
