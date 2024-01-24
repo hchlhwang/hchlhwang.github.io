@@ -65,10 +65,10 @@ Our FlashLight team was placed in 2nd place for the Vision Assistive Race. Altho
     VIS race results
 </div>
 
-
+<!-- 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/KEk4oRqi5-A">
-</iframe>
+</iframe> -->
 
 You can watch the full video from the [official link](https://cybathlon.ethz.ch/en/events/challenges/Challenges-2023).
 
