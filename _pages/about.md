@@ -3,11 +3,13 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: I am interested in building <a style='color:#B509AC;'> robots </a> that can help people with their <a style='color:#B509AC;'>mobility</a>.
+subtitle: I am passionate about designing <a style='color:#B509AC;'> robots </a> that enhance <a style='color:#B509AC;'>mobility</a> for individuals. Please refer to my <a href="/assets/pdf/resume-hochul.pdf" target="_blank">CV</a> for details.
+
+# I am passionate about designing robots that enhance mobility for individuals. Please refer to my CV for more information.
 # <a href="http://example.com/" style="color:rgb(255,0,0);">
 profile:
 # <p style="color:#FF0000";>
-  align: right
+  align: left
   image: hochul.jpg # hochul.png # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: >

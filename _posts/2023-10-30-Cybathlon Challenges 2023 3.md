@@ -3,7 +3,7 @@ layout: post
 title: CYBATHLON Challenges 2023 Results
 description: 2nd place
 date: 2023-10-30
-tags: cybathlon human-computer-interaction vision object-detection
+tags: cybathlon human-computer-interaction computer-vision object-detection
 
 authors:
   - name: Hochul Hwang
