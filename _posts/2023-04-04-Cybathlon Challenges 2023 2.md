@@ -3,7 +3,7 @@ layout: post
 title: Preparation of the CYBATHLON Challenges 2023 (2)
 description: Development components for task 2
 date: 2023-04-04
-tags: cybathlon human-computer-interaction vision object-detection
+tags: cybathlon human-computer-interaction computer-vision object-detection
 
 authors:
   - name: Hochul Hwang

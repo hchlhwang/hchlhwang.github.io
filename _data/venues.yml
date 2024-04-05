@@ -17,10 +17,13 @@
   url: https://dl.acm.org/conference/chi
   color: "#ff781f"  
 
+"UR":
+  url: https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/ur
+  color: "#b41c1c"
+
 "ICRA":
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
   color: "#b41c1c"
-
 
 "IROS":
   url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros
