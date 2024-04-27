@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: I am passionate about designing <a style='color:#B509AC;'> robots </a> that enhance <a style='color:#B509AC;'>mobility</a> for individuals. Please refer to my <a href="/assets/pdf/resume-hochul.pdf" target="_blank">CV</a> for details.
+subtitle: I am passionate about building <a style='color:#B509AC;'> robots </a> that enhance <a style='color:#B509AC;'>mobility</a> for people. Please refer to my <a href="/assets/pdf/resume-hochul.pdf" target="_blank">CV</a> for details.
 
 # I am passionate about designing robots that enhance mobility for individuals. Please refer to my CV for more information.
 # <a href="http://example.com/" style="color:rgb(255,0,0);">
@@ -28,4 +28,7 @@ Before joining KIST, I participated research in Human Centered Robotics Laborato
 I am currently pursuing my Ph.D. in Computer Science at the University of Massachusetts Amherst advised by Prof. [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun).
 <!-- fortunate to be  -->
 
-I am teaching and guiding robots to <a style='color:#B509AC;'> perceive</a> accurately and <a style='color:#B509AC;'> locomote</a> roboustly to safely and efficiently support people in the real-world. I am also interested in analyzing the interaction between human and robots.
+I am developing a guide dog robot to <a style='color:#B509AC;'>robustly navigate</a> in the real-world using <a style='color:#B509AC;'>perception</a> to safely and efficiently guide human users. I am also interested in analyzing the <a style='color:#B509AC;'>interaction</a> between the human-robot teams.
+
+
+<!-- I am teaching and guiding robots to <a style='color:#B509AC;'> perceive</a> accurately and <a style='color:#B509AC;'> locomote</a> roboustly to safely and efficiently support people in the real-world. I am also interested in analyzing the interaction between human and robots. -->
