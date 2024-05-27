@@ -22,13 +22,13 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I received my B.S. in Robotics Engineering from Hanyang University ERICA, Republic of Korea, in 2019. 
-I previously worked as a research intern at the Visual Intelligence Group at Korea Institute of Science and Technology (KIST) from 2019 to 2020 with the support from Dr. [Ig-Jae Kim](https://sites.google.com/view/ijkim) and Dr. [Junghyun Cho](https://junghyuncho.notion.site/Junghyun-Cho-36f85eff362148dab9e23e6628fe3551). 
-Before joining KIST, I participated research in Human Centered Robotics Laboratory lead by Prof. [Luis Sentis](https://www.ae.utexas.edu/people/faculty/faculty-directory/sentis) at the University of Texas at Austin.
-I am currently pursuing my Ph.D. in Computer Science at the University of Massachusetts Amherst advised by Prof. [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun).
-<!-- fortunate to be  -->
+I am a Ph.D. stduent in the Dynamic and Autonomous Robotics Systems Lab at the University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot <a style='color:#B509AC;'>perception</a>, <a style='color:#B509AC;'>planning</a>, and <a style='color:#B509AC;'>human-robot interaction</a>:
+    
+  -- <a style='color:#B509AC;'><b>Perception and planning for safe long-term autonomy.</b></a> Developing robust navigation and trajectory following models by learning generalizable representations from real-world human demonstrations, enabling safe and efficient guidance for human users.
 
-I am developing a guide dog robot to <a style='color:#B509AC;'>robustly navigate</a> in the real-world using <a style='color:#B509AC;'>perception</a> to safely and efficiently guide human users. I am also interested in analyzing the <a style='color:#B509AC;'>interaction</a> between the human-robot teams.
+  -- <a style='color:#B509AC;'><b>Human-robot interaction for real-world deployment.</b></a> Analyzing dynamic interactions between human-robot teams and factors such as trust and personalization to facilitate deployment beyond the development phase.
 
+
+<!-- I received my B.S. in Robotics Engineering from Hanyang University ERICA, Republic of Korea, in 2019.  -->
 
 <!-- I am teaching and guiding robots to <a style='color:#B509AC;'> perceive</a> accurately and <a style='color:#B509AC;'> locomote</a> roboustly to safely and efficiently support people in the real-world. I am also interested in analyzing the interaction between human and robots. -->
