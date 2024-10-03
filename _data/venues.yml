@@ -17,6 +17,10 @@
   url: https://dl.acm.org/conference/chi
   color: "#ff781f"  
 
+"ASSETS":
+  url: https://dl.acm.org/conference/assets/
+  color: "#ff781f"  
+
 "UR":
   url: https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/ur
   color: "#b41c1c"
@@ -35,3 +39,7 @@
 
 "Adv.Materials":
   url: https://onlinelibrary.wiley.com/journal/15214095?utm_source=google&utm_medium=paidsearch&utm_campaign=R3MR425&utm_content=PhysSciEngineering&gclid=CjwKCAiA-dCcBhBQEiwAeWidtdgAHYhKh9qNgude80z93rUSB7UKTFr8zRXnJ_gnHM_4KeFTj9gMYRoCCUkQAvD_BwE/
+  color: "#b41c1c"
+
+"US Patent":
+  color: "#b41c1c"
