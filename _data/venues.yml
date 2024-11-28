@@ -25,6 +25,10 @@
   url: https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/ur
   color: "#b41c1c"
 
+"RiTA":
+  url: https://2024.icrita.org
+  color: "#b41c1c"
+
 "ICRA":
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
   color: "#b41c1c"

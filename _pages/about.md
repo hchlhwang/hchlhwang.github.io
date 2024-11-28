@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. stduent in the Dynamic and Autonomous Robotics Systems Lab at the University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot <a style='color:#B509AC;'>perception</a>, <a style='color:#B509AC;'>planning</a>, and <a style='color:#B509AC;'>human-robot interaction</a>:
     
-  -- <a style='color:#B509AC;'><b>Perception and planning for safe long-term autonomy.</b></a> Developing robust navigation and trajectory following models by learning generalizable representations from real-world human demonstrations, enabling safe and efficient guidance for human users.
+  -- <a style='color:#B509AC;'><b>Perception and planning for safe long-term autonomy.</b></a> Developing robust route-following models by learning generalizable representations using foundation models, enabling safe and efficient guidance for users.
 
   -- <a style='color:#B509AC;'><b>Human-robot interaction for real-world deployment.</b></a> Analyzing dynamic interactions between human-robot teams and factors such as trust and personalization to facilitate deployment beyond the development phase.
 
