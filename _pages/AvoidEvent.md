@@ -270,6 +270,10 @@ permalink: /AvoidEvent/
 				</font>
         <br>
 
+        <a href="/assets/img/eventAvoid/eventAvoidVid.mp4"><img class='summary-img' src='/assets/img/eventAvoid/eventAvoidVid.mp4' style='width:70%;'></a>
+        <br>
+        <br>
+
 		<p id="abstract"><strong>Abstract: </strong>
         Recent development in the robotics community enabled legged robots to maneuver agilely in complex environments. However, having these dynamic systems to avoid fast-moving obstacles in daily living scenarios is still a remaining challenge that limits deployment in real-world applications. Especially, although accurate detection of highly dynamic obstacles under dynamic robot motions is critical for successful obstacle avoidance, this problem is complex and challenging due to motion blur and the high latency of traditional image sensors. More recently, event cameras have shown great potential in alleviating relevant issues. In this paper, we propose a dynamic obstacle avoidance framework that consists of dynamic obstacle detection and trajectory prediction algorithms without using other sensors, such as depth cameras. Firstly, we present an accurate dynamic obstacle detection and tracking algorithm based on threshold event data. We then utilize Random sample consensus (RANSAC) to track and predict the trajectory of the obstacle positions in 2D pixel coordinates. Finally, we introduce our avoidance framework that operates with predicted 2D obstacle positions. We perform extensive real-world experiments to validate our avoidance framework which performs $61.9\%$ of obstacle avoidance success rate of a kicked ball. Our code and video are publicly available.
 				</p>
@@ -289,9 +293,17 @@ permalink: /AvoidEvent/
         <img class='summary-img' src='/assets/img/eventAvoid/setup.png' style="width:30%;">
         <br>
         <hr>
-        <p style="text-align: center;">Our experimental results are recorded below. 
+        <!-- <p style="text-align: center;">Our experimental results are recorded below (click for video).   -->
         
-
-        <a href="/assets/img/eventAvoid/eventAvoidVid.mp4"><img class='summary-img' src='/assets/img/eventAvoid/eventAvoidVid.mp4' style='width:70%;'>
 		<br>
    
+    <div class="content2" id="summary">
+
+        <h2 style="text-align:center;">Experimental Results</h2>
+
+        <p style="text-align: center;">Preliminary results of the feature-based obstacle detection algorithm are shown sequentially in the figure. The red circle depicted in the first row indicates the prediction of the obstacle position. We can observe in the figure that traditional frame-based methods (RGB) may suffer from motion blur and latency.
+        </p>
+        <img class='summary-img' src='/assets/img/eventAvoid/f3.png' style="width:100%;">
+        <br>
+        <hr>
+        

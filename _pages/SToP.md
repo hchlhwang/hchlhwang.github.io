@@ -253,25 +253,28 @@ permalink: /SToP/
 			<h1>Synthetic data augmentation for robotic mobility aids to support blind and low vision people</h1>
         <p id="authors">
             <a href="https://hchlhwang.github.io/">Hochul Hwang</a>
-            Krisha Adhikari
-            Satya Shodhaka
-            Donghyun Kim
+            <a href="https://www.linkedin.com/in/krisha-adhikari-b0691524b/">Krisha Adhikari</a>
+            <a href="https://www.linkedin.com/in/satyashodhaka/?originalSubdomain=in">Satya Shodhaka</a>
+            <a href="https://www.umass.edu/robotics/people/donghyun-kim">Donghyun Kim</a>
             <br>
             DARoS Lab @ UMass Amherst
-            <br><i>arXiv'24</i>
+            <br><i>RiTA'24</i>
         </p>
 				<font size="+2">
 					<p style="text-align: center;">
 						<a href="https://arxiv.org/pdf/2409.11164" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="https://umass-my.sharepoint.com/:f:/g/personal/hochulhwang_umass_edu/EvEzVf7F-zRBgIf-JVVOOeIBKCU_eYts_Ap9NSZdgJo3yg?e=zo1UUI" target="_blank">[Download]</a> &nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="https://umass-my.sharepoint.com/:f:/g/personal/hochulhwang_umass_edu/EvEzVf7F-zRBgIf-JVVOOeIBKCU_eYts_Ap9NSZdgJo3yg?e=zo1UUI" target="_blank">[Data]</a> &nbsp;&nbsp;&nbsp;&nbsp;
 					</p>
 				</font>
 				<font size="+1">
 				</font>
         <br>
+        <img class='summary-img' src='/assets/img/rita/rita-f1.png' style="width:80%;">
 
+        <br>
+        <br>
 		<p id="abstract"><strong>Abstract: </strong>
-        Robotic mobility aids for blind and low-vision (BLV) individuals rely heavily on deep learning-based vision models specialized for various navigational tasks. However, the performance of these models is often constrained by the availability and diversity of real-world datasets, which are challenging to collect in sufficient quantities for different tasks. In this study, we investigate the effectiveness of synthetic data, generated using Unreal Engine 4, for training robust vision models for this safety-critical application. Our findings demonstrate that synthetic data can enhance model performance across multiple tasks, showcasing both its potential and its limitations when compared to real-world data. We offer valuable insights into optimizing synthetic data generation for develop- ing robotic mobility aids. Additionally, we publicly release our generated synthetic dataset to support ongoing research in assistive technologies for BLV individuals, available at <a href="https://umass-my.sharepoint.com/:f:/g/personal/hochulhwang_umass_edu/EvEzVf7F-zRBgIf-JVVOOeIBKCU_eYts_Ap9NSZdgJo3yg?e=zo1UUI" target="_blank">[Download]</a>
+        Robotic mobility aids for blind and low-vision (BLV) individuals rely heavily on deep learning-based vision models specialized for various \ navigational tasks. However, the performance of these models is often constrained by the availability and diversity of real-world datasets, which are challenging to collect in sufficient quantities for different tasks. In this study, we investigate the effectiveness of synthetic data, generated using Unreal Engine 4, for training robust vision models for this safety-critical application. Our findings demonstrate that synthetic data can enhance model performance across multiple tasks, showcasing both its potential and its limitations when compared to real-world data. We offer valuable insights into optimizing synthetic data generation for develop- ing robotic mobility aids. Additionally, we publicly release our generated synthetic dataset to support ongoing research in assistive technologies for BLV individuals, available at <a href="https://umass-my.sharepoint.com/:f:/g/personal/hochulhwang_umass_edu/EvEzVf7F-zRBgIf-JVVOOeIBKCU_eYts_Ap9NSZdgJo3yg?e=zo1UUI" target="_blank">[Download]</a>
 				</p>
         <br clear="all">
     </div>
@@ -279,19 +282,75 @@ permalink: /SToP/
 
         <h2 style="text-align:center;">Summary</h2>
 
-        <p style="text-align: center;">The overall pipeline of our framework is illustrated in the image below. Our cascaded framework consists of multiple steps: event data accumulation, data denoising, obstacle detection and tracking, trajectory prediction, and robot control. We first accumulate the sparse events to support obstacle detection in the next few steps. We then implement an event image denoising algorithm to filter out background noise. Then, the dynamic obstacle detection algorithm is introduced to segment dynamic objects. Based on the sequence of dynamic obstacle positions, we calculate the obstacle direction and predict its future trajectory. The trajectory prediction is converted to y-axis velocity commands which are provided to the robot to avoid the dynamic obstacle.
-        </p>
-        <img class='summary-img' src='/assets/img/eventAvoid/scheme.png' style="width:80%;">
-        <br>
-        <hr>
-        <p style="text-align: center;">System configuration of the Unitree Go1 robot and the event camera is shown below. The Intel RealSense Depth Camera D455 was only used to visualize the robot-perspective viewpoint and not used for the obstacle avoidance framework.
-</p>
-        <img class='summary-img' src='/assets/img/eventAvoid/setup.png' style="width:30%;">
-        <br>
-        <hr>
-        <p style="text-align: center;">Our experimental results are recorded below. 
+        <p style="text-align: center;">We generated synthetic data using Unreal Engine 4 and the NVIDIA Deep Learning Dataset Synthesizer for various nav- igational downstream tasks.
+        The key contributions of our work can be summarized in threefolds:
         
+        <ol>
+        <li> We propose a pipeline for generating synthetic data tailored for training deep learning models used in robotic mobility aids.</li>
 
-        <a href="/assets/img/eventAvoid/eventAvoidVid.mp4"><img class='summary-img' src='/assets/img/eventAvoid/eventAvoidVid.mp4' style='width:70%;'>
+        <li> We demonstrate the effectiveness of synthetic data in fine-tuning models for downstream tasks, showing improved performance in tactile paving detection and scene description.</li>
+
+        <li> We share a comprehensive synthetic dataset that includes a wide range of scenarios, enhancing the robustness of models across various tasks.</li>
+        </ol>
+
+        </p>
+    
+        <br>
+        <hr>
+ 
 		<br>
-   
+
+    <div class="content2" id="summary">
+
+        <h2 style="text-align:center;">Synthetic data generation environment</h2>
+
+        <p style="text-align: center;">The Suburban environment features urban roads and sidewalks that contain a variety of objects commonly found in sidewalk settings. Controllable camera trajectories allow data collection from diverse viewpoints, reflecting the perspectives of different robotic mobility aids.
+        </p>
+        <img class='summary-img' src='/assets/img/rita/rita-f3.png' style="width:80%;">
+        <br>
+        <hr>
+        <br>
+    
+    <div class="content3" id="summary">
+
+        <h2 style="text-align:center;">Synthetic Tactile-on-Paving (SToP) Dataset</h2>
+
+        <p style="text-align: center;">Comparison between real data and gen- erated synthetic data in various lighting and viewpoint settings, highlighting the close resemblance of synthetic data to real-world conditions. Visualization of ground truth bounding boxes within the UE4 environment.
+        </p>
+        <img class='summary-img' src='/assets/img/rita/rita-f2.png' style="width:90%;">
+    
+        <br>
+        <hr>
+        <br>
+    
+    <div class="content3" id="summary">
+
+        <h2 style="text-align:center;">Experimental Results 1: Tactile paving detection</h2>
+
+        <p style="text-align: center;">To evaluate the SToP dataset, we fine-tuned YOLOv8 and YOLO-World specifically for tactile paving detection.
+        
+        <ul>
+        <li>(Left) YOLOv8 successfully detects tactile pavings from a top-down view, which were not detected by the pretrained model with- out synthetic data training.</li>
+        <li>(Right) The open-vocabulary YOLO-World provides bounding boxes for tactile pavings, a capability that was not achieved previously (Center) on a publicly available dataset.</li>
+        <img class='summary-img' src='/assets/img/rita/rita-f4.png' style="width:100%;">
+
+        <br>
+        <hr>
+        <br>
+    
+    <div class="content3" id="summary">
+
+        <h2 style="text-align:center;">Experimental Results 2: Scene description</h2>
+
+        <p style="text-align: center;">For the scene description task, we fine-tuned the Florence-2 vision foundation model using our synthetic street crossing dataset, complemented by text annotations crafted by one of the researchers to reflect the informational prefer- ences of BLV individuals during street crossings.
+
+        As shown in Table 1, incorporating additional real-world and synthetic data led to comparable performance improvements over the baseline, except for precision.
+
+        Qualitative results of the fine-tuned Florence-2 model are presented in Table 2, where the model exhibited strong performance in generating accurate descriptions across varied conditions, though some inaccuracies and missing information were found.
+
+
+        </p>
+        <img class='summary-img' src='/assets/img/rita/rita-f5.png' style="width:80%;">
+        <br>
+    
+    
