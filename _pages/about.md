@@ -10,7 +10,8 @@ subtitle: I am passionate about building <a style='color:#B509AC;'> robots </a> 
 profile:
 # <p style="color:#FF0000";>
   align: left
-  image: hochul.jpg # hochul.png # prof_pic.jpg
+  image: new-hochul.png # hochul.png # prof_pic.jpg
+  # image: hochul.jpg # hochul.png # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>Lederle Graduate Research Center Lowrise A308</p>
@@ -22,7 +23,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. stduent in the Dynamic and Autonomous Robotics Systems Lab at the University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot <a style='color:#B509AC;'>perception</a>, <a style='color:#B509AC;'>planning</a>, and <a style='color:#B509AC;'>human-robot interaction</a>:
+I am a Ph.D. candidate in the Dynamic and Autonomous Robotics Systems Lab at University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot <a style='color:#B509AC;'>perception</a>, <a style='color:#B509AC;'>planning</a>, and <a style='color:#B509AC;'>human-robot interaction</a>:
     
   -- <a style='color:#B509AC;'><b>Perception and planning for safe long-term autonomy.</b></a> Developing robust route-following models by learning generalizable representations using foundation models, enabling safe and efficient guidance for users.
 
