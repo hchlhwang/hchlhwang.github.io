@@ -3,7 +3,10 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: <span class="walking-robot">🦿</span> Building robots for independent mobility for all.
+# Complex animated version:
+# subtitle: <div class="physics-tagline"><span class="word slide-left">Building robots</span> <span class="word fall-1">for</span> <span class="word fall-2">independent</span> <span class="word fall-3">mobility</span> <span class="word fall-4">for</span> <span class="word fall-5">all.</span><span class="walker">🦿</span></div>
+# Simple version with emoji walking in place:
+subtitle: <div class="physics-tagline"><span class="walker">🦿</span> Building robots for independent mobility for all.</div>
 
 # I am passionate about designing robots that enhance mobility for individuals. Please refer to my CV for more information.
 # <a href="http://example.com/" style="color:rgb(255,0,0);">

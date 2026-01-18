@@ -2,11 +2,31 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Simple tagline with walking emoji on left
+// Physics tagline animation
+// All animations use 20s duration for synchronization
 .physics-tagline {
   position: relative;
-  text-align: left;
-  margin-bottom: 1.5em;
+  text-align: center;
+  min-height: 4em;
+  padding-top: 1em;
+  white-space: nowrap;
+
+  // CSS variables for walker animation (set by JS with actual positions)
+  // These are fallback defaults - JS will override with calculated values
+  --before-words: -20em;
+  --ground-y: 1.2em;
+  --top-fallen: -0.2em;
+  --top-baseline: -1.4em;
+  --word1-start: -15em;
+  --word1-end: -13.5em;
+  --word2-start: -13em;
+  --word2-end: -7em;
+  --word3-start: -6.5em;
+  --word3-end: -3em;
+  --word4-start: -2.5em;
+  --word4-end: -1em;
+  --word5-start: -0.5em;
+  --word5-end: 2em;
 }
 
 .word {
@@ -14,29 +34,154 @@
   position: relative;
 }
 
-// No animation for words
-.slide-left { }
-.fall-1 { }
-.fall-2 { }
-.fall-3 { }
-.fall-4 { }
-.fall-5 { }
+// ============================================================
+// SEQUENTIAL ANIMATION PHASES (20s total):
+// Phase 1 (0-8%):   "Building robots" slides left
+// Phase 2 (8-15%):  Words fall into stair pattern
+// Phase 3 (18-85%): Robot walks at constant speed
+// Phase 4 (90-100%): Reset everything
+// ============================================================
 
-// Walker emoji - walks in place, inline with text
-.walker {
-  display: inline-block;
-  font-size: 1em;
-  transform-origin: bottom center;
-  animation: walk-in-place 0.5s ease-in-out infinite;
+// "Building robots" slides from center to left - PHASE 1
+.slide-left {
+  animation: slide-to-left 20s ease-out infinite;
 }
 
-// Simple walking-in-place animation
-@keyframes walk-in-place {
-  0%, 100% {
-    transform: rotate(-5deg);
+// Words fall with physics bounce - PHASE 2 (staggered, starts after slide)
+.fall-1 { animation: fall-low 20s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+.fall-2 { animation: fall-high 20s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+.fall-3 { animation: fall-low 20s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+.fall-4 { animation: fall-high 20s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+.fall-5 { animation: fall-low 20s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+
+// Walker emoji - PHASE 3
+.walker {
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+  font-size: 1em;
+  vertical-align: top;
+  animation: robot-walk 20s linear infinite;
+}
+
+// PHASE 1: Slide "Building robots" far left (0-8%)
+@keyframes slide-to-left {
+  0% {
+    transform: translateX(0);
   }
-  50% {
-    transform: translateY(-0.1em) rotate(5deg);
+  8%, 90% {
+    transform: translateX(-120%);
+  }
+  97%, 100% {
+    transform: translateX(0);
+  }
+}
+
+// PHASE 2: Fall DOWN one line (for, mobility, all) - starts at 8%
+@keyframes fall-low {
+  0%, 8% {
+    transform: translateY(0);
+  }
+  13% {
+    transform: translateY(1.3em);
+  }
+  14% {
+    transform: translateY(1.1em);
+  }
+  15%, 90% {
+    transform: translateY(1.2em);
+  }
+  97%, 100% {
+    transform: translateY(0);
+  }
+}
+
+// PHASE 2: Stay at baseline (independent, for 2nd)
+@keyframes fall-high {
+  0%, 100% {
+    transform: translateY(0);
+  }
+}
+
+// PHASE 3: Robot walk animation with CONSTANT SPEED
+// Appears at 16% (right after words settle at 15%)
+// ~20em total distance over 55% of animation (16%-71%)
+// Each em takes ~2.75% of animation time
+
+@keyframes robot-walk {
+  // Hidden during Phase 1 & 2
+  0%, 15% {
+    opacity: 0;
+    transform: translateX(var(--before-words)) translateY(var(--ground-y));
+  }
+
+  // === APPEAR and walk to "for" (5em = 14%) ===
+  16% {
+    opacity: 1;
+    transform: translateX(var(--before-words)) translateY(var(--ground-y));
+  }
+  30% {
+    transform: translateX(var(--word1-start)) translateY(var(--ground-y));
+  }
+  // Climb onto "for"
+  31% {
+    transform: translateX(var(--word1-start)) translateY(var(--top-fallen));
+  }
+
+  // === Across "for" (1.5em = 4%) ===
+  35% {
+    transform: translateX(var(--word1-end)) translateY(var(--top-fallen));
+  }
+  // Vertical up to "independent" height
+  36% {
+    transform: translateX(var(--word1-end)) translateY(var(--top-baseline));
+  }
+
+  // === Across "independent" (6em = 17%) ===
+  53% {
+    transform: translateX(var(--word2-end)) translateY(var(--top-baseline));
+  }
+  // Vertical down to "mobility" height
+  54% {
+    transform: translateX(var(--word2-end)) translateY(var(--top-fallen));
+  }
+
+  // === Across "mobility" (3.5em = 10%) ===
+  64% {
+    transform: translateX(var(--word3-end)) translateY(var(--top-fallen));
+  }
+  // Vertical up to "for" 2nd height
+  65% {
+    transform: translateX(var(--word3-end)) translateY(var(--top-baseline));
+  }
+
+  // === Across "for" 2nd (1.5em = 4%) ===
+  69% {
+    transform: translateX(var(--word4-end)) translateY(var(--top-baseline));
+  }
+  // Vertical down to "all." height
+  70% {
+    transform: translateX(var(--word4-end)) translateY(var(--top-fallen));
+  }
+
+  // === Across "all." (2.5em = 7%) ===
+  77% {
+    transform: translateX(var(--word5-end)) translateY(var(--top-fallen));
+  }
+  // Down to ground
+  78% {
+    transform: translateX(var(--word5-end)) translateY(var(--ground-y));
+  }
+
+  // Rest on ground
+  78%, 88% {
+    opacity: 1;
+    transform: translateX(var(--word5-end)) translateY(var(--ground-y));
+  }
+  // Fade out
+  92%, 100% {
+    opacity: 0;
+    transform: translateX(var(--word5-end)) translateY(var(--ground-y));
   }
 }
 
