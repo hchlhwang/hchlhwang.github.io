@@ -577,6 +577,15 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        .award-badge {
+          background-color: #dc143c;
+          color: #fff;
+          font-size: 0.75em;
+          font-weight: normal;
+          padding: 0.2em 0.5em;
+          margin-right: 0.5em;
+          border-radius: 3px;
+        }
       }
       .author {
         a {

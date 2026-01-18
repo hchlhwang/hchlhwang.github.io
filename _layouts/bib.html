@@ -27,8 +27,19 @@
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
-          <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <!-- Title with award, paper, and video icon links -->
+          <div class="title">
+            {%- if entry.award -%}
+              <span class="badge award-badge" title="{{ entry.award }}">🏆 {{ entry.award }}</span>
+            {%- endif -%}
+            {{entry.title}}
+            {%- if entry.html -%}
+              <a href="{{ entry.html }}" title="Paper" style="margin-left: 0.3em;"><i class="fas fa-file-alt fa-sm"></i></a>
+            {%- endif -%}
+            {%- if entry.video -%}
+              <a href="{{ entry.video }}" title="Video" style="margin-left: 0.3em;"><i class="fas fa-video fa-sm"></i></a>
+            {%- endif -%}
+          </div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
