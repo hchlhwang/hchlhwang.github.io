@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: 🦿 Building robots to improve mobility for people.
+subtitle: <span class="walking-robot">🦿</span> Building robots for independent mobility for all.
 
 # I am passionate about designing robots that enhance mobility for individuals. Please refer to my CV for more information.
 # <a href="http://example.com/" style="color:rgb(255,0,0);">
@@ -20,14 +20,16 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the Dynamic and Autonomous Robotics Systems Lab at University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot **perception**, **planning**, and **human-robot interaction**:
+I am a Ph.D. candidate at UMass Amherst developing **guide dog robots** for visually impaired individuals. My research spans **robot perception**, **planning**, and **human-robot interaction**.
 
-  -- **Perception and planning for safe long-term autonomy.** Developing robust route-following models by learning generalizable representations using foundation models, enabling safe and efficient guidance for users.
+**Perception & Planning** — Building vision-based navigation systems using foundation models for safe, long-term autonomy.
 
-  -- **Human-robot interaction for real-world deployment.** Analyzing dynamic interactions between human-robot teams and factors such as trust and personalization to facilitate deployment beyond the development phase.
+**Human-Robot Interaction** — Investigating how users interact with assistive robots through field studies, informing design for real-world deployment.
+
+Advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun), co-advised by [Ivan Lee](https://www.umass.edu/ials/people/sunghoon-ivan-lee) and [Joydeep Biswas](https://www.cs.utexas.edu/people/faculty-researchers/joydeep-biswas).
 
 
 <!-- I received my B.S. in Robotics Engineering from Hanyang University ERICA, Republic of Korea, in 2019.  -->

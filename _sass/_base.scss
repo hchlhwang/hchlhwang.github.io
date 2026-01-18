@@ -2,6 +2,43 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Walking robot animation
+.walking-robot {
+  display: inline-block;
+  animation: walk 0.6s ease-in-out infinite;
+}
+
+@keyframes walk {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(5deg);
+  }
+}
+
+// Header links (cv, scholar, github, linkedin)
+.header-links {
+  font-size: 0.4em;
+  font-weight: 400;
+  margin-left: 0.5em;
+  vertical-align: middle;
+
+  a {
+    margin: 0 0.4em;
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
