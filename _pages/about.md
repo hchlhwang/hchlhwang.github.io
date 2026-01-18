@@ -23,11 +23,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the Dynamic and Autonomous Robotics Systems Lab at University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot <a style='color:#B509AC;'>perception</a>, <a style='color:#B509AC;'>planning</a>, and <a style='color:#B509AC;'>human-robot interaction</a>:
-    
-  -- <a style='color:#B509AC;'><b>Perception and planning for safe long-term autonomy.</b></a> Developing robust route-following models by learning generalizable representations using foundation models, enabling safe and efficient guidance for users.
+I am a Ph.D. candidate in the Dynamic and Autonomous Robotics Systems Lab at University of Massachusetts Amherst advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun). I am leading the development of a guide dog robot, with my research focusing on robot **perception**, **planning**, and **human-robot interaction**:
 
-  -- <a style='color:#B509AC;'><b>Human-robot interaction for real-world deployment.</b></a> Analyzing dynamic interactions between human-robot teams and factors such as trust and personalization to facilitate deployment beyond the development phase.
+  -- **Perception and planning for safe long-term autonomy.** Developing robust route-following models by learning generalizable representations using foundation models, enabling safe and efficient guidance for users.
+
+  -- **Human-robot interaction for real-world deployment.** Analyzing dynamic interactions between human-robot teams and factors such as trust and personalization to facilitate deployment beyond the development phase.
 
 
 <!-- I received my B.S. in Robotics Engineering from Hanyang University ERICA, Republic of Korea, in 2019.  -->
