@@ -1,19 +1,30 @@
 ---
 layout: page
-title: project
+title: Projects
 permalink: /project/
-# description: A growing collection of your cool projects.
-years: [2023, 2022, 2021, 2018] # , 1956, 1935, 1905
+description: Research projects in computer vision, robotics, and assistive technology.
 nav: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
 
+## Assistive Robotics for the Visually Impaired
 
-<!-- <a href="/VisionADL/"><b>VisionADL: Vision-based dataset to support activities of daily living for visually impaired individuals</b></a> -->
+**[Vision-Only Long-Range Route Following](https://guidedogrobot-navigation.github.io)** — Enabling guide dog robots to follow long-range routes using only visual inputs.
 
-<a href="/SToP/"><b>The Synthetic Tactile-on-Paving (SToP) Dataset</b></a>
+**[Handler-Guide Dog Interaction Dataset](https://guidedogrobot-hgidataset.github.io)** — A dataset capturing interactions between handlers and guide dogs for robot learning.
 
-<a href="/AvoidEvent/"><b>Event-based highly dynamic obstacle avoidance</b></a>
+**[Quiet and Stable Locomotion Control](https://guidedogrobot-stairclimbing.github.io)** — Developing stable and quiet locomotion for quadruped robots during stair climbing.
 
-<a href="/Eldercare/"><b>ElderSim: A synthetic data generation platform for human action recognition in eldercare applications</b></a>
+**[Semantic-Aware Indoor Obstacle Avoidance](https://guidedogrobot-obstacleavoid.github.io)** — Indoor obstacle avoidance using semantic scene understanding.
+
+**[The Synthetic Tactile-on-Paving (SToP) Dataset](/SToP/)** — A synthetic dataset for tactile paving detection to aid visually impaired pedestrians.
+
+## Competitions
+
+**[CYBATHLON Challenges 2023](/Cybathlon/)** — Vision Assistance Race for blind and visually impaired individuals (2nd Place).
+
+## Other Research
+
+**[Event-based Obstacle Avoidance](/AvoidEvent/)** — Leveraging event cameras for highly dynamic obstacle avoidance in real-time applications.
+
+**[ElderSim](/Eldercare/)** — A synthetic data generation platform for human action recognition in eldercare applications.

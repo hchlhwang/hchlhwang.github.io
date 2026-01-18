@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: I am passionate about building <a style='color:#B509AC;'> robots </a> that enhance <a style='color:#B509AC;'>mobility</a> for people. Please refer to my <a href="/assets/pdf/resume-hochul.pdf" target="_blank">CV</a> for details.
+subtitle: 🦿 Building robots to improve mobility for people.
 
 # I am passionate about designing robots that enhance mobility for individuals. Please refer to my CV for more information.
 # <a href="http://example.com/" style="color:rgb(255,0,0);">
