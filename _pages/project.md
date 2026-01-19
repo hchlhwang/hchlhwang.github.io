@@ -2,29 +2,29 @@
 layout: page
 title: Projects
 permalink: /project/
-description: Research projects in computer vision, robotics, and assistive technology.
+description: Research projects in Robotics (perception, planning, and control) and HRI for assistive technology.
 nav: true
 nav_order: 1
 ---
 
-## Assistive Robotics for the Visually Impaired
+## Assistive Robotics for the Blind & Low-Vision People
 
-**[Vision-Only Long-Range Route Following](https://guidedogrobot-navigation.github.io)** — Enabling guide dog robots to follow long-range routes using only visual inputs.
+**[GuideNav: Vision-Only Long-Range Route Following](https://guidedogrobot-navigation.github.io)** — Robust visual teach-and-repeat for kilometer-scale route following using only images.
 
-**[Handler-Guide Dog Interaction Dataset](https://guidedogrobot-hgidataset.github.io)** — A dataset capturing interactions between handlers and guide dogs for robot learning.
+**[GuideData: Handler-Guide Dog Interaction Dataset](https://guidedogrobot-hgidataset.github.io)** — A dataset capturing interactions between handlers and guide dogs for guide dog robot design implications.
 
-**[Quiet and Stable Locomotion Control](https://guidedogrobot-stairclimbing.github.io)** — Developing stable and quiet locomotion for quadruped robots during stair climbing.
+**[Quiet and Stable Locomotion Control](https://guidedogrobot-stairclimbing.github.io)** — Stable and low-noise locomotion controller for quiet walking and smooth stair climbing.
 
-**[Semantic-Aware Indoor Obstacle Avoidance](https://guidedogrobot-obstacleavoid.github.io)** — Indoor obstacle avoidance using semantic scene understanding.
+**[System Integration & Obstacle Avoidance](https://guidedogrobot-obstacleavoid.github.io)** — Guide dog robot configuration and semantics-aware local path planning.
 
-**[The Synthetic Tactile-on-Paving (SToP) Dataset](/SToP/)** — A synthetic dataset for tactile paving detection to aid visually impaired pedestrians.
+**[The Synthetic Tactile-on-Paving (SToP) Dataset](/SToP/)** — Unreal Engine-based synthetic data augmentation for tactile paving detection.
 
 ## Competitions
 
-**[CYBATHLON Challenges 2023](/Cybathlon/)** — Vision Assistance Race for blind and visually impaired individuals (2nd Place).
+**[CYBATHLON Vision Assistance Race 2023](/Cybathlon/)** — Solving real-world problems for blind and low-vision people.
 
 ## Other Research
 
-**[Event-based Obstacle Avoidance](/AvoidEvent/)** — Leveraging event cameras for highly dynamic obstacle avoidance in real-time applications.
+**[Event Cameras for Dynamic Obstacle Avoidance](/AvoidEvent/)** — Highly dynamic obstacle detection using event cameras.
 
 **[ElderSim](/Eldercare/)** — A synthetic data generation platform for human action recognition in eldercare applications.
