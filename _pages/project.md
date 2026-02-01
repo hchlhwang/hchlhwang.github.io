@@ -13,6 +13,8 @@ nav_order: 1
 
 **[GuideData: Handler-Guide Dog Interaction Dataset](https://guidedogrobot-hgidataset.github.io)** — A dataset capturing interactions between handlers and guide dogs for guide dog robot design implications.
 
+**[GuideTWSI: Stopping at Tactile Pavings](https://guidedogrobot-tactile.github.io/)** — Synthetic TWSI data generation for tactile paving segmentation and stopping.
+
 **[Quiet and Stable Locomotion Control](https://guidedogrobot-stairclimbing.github.io)** — Stable and low-noise locomotion controller for quiet walking and smooth stair climbing.
 
 **[System Integration & Obstacle Avoidance](https://guidedogrobot-obstacleavoid.github.io)** — Guide dog robot configuration and semantics-aware local path planning.
