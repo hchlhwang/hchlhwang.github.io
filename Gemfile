@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+# Ruby 4.0 stdlib compatibility
+gem 'ostruct'
+
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
     gem 'jekyll'
