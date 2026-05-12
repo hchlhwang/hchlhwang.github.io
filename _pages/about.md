@@ -13,7 +13,7 @@ subtitle: <div class="physics-tagline"><span class="walker">🦿</span> Building
 profile:
 # <p style="color:#FF0000";>
   align: left
-  image: new-hochul.png # hochul.png # prof_pic.jpg
+  image: blue_hochul.png # hochul.png # prof_pic.jpg
   # image: hochul.jpg # hochul.png # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: >
