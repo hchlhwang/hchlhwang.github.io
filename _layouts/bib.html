@@ -32,6 +32,9 @@
             {%- if entry.award -%}
               <span class="badge award-badge" title="{{ entry.award }}">🏆 {{ entry.award }}</span>
             {%- endif -%}
+            {%- if entry.oral -%}
+              <span class="badge selection-badge" title="{{ entry.oral }}">{{ entry.oral }}</span>
+            {%- endif -%}
             {{entry.title}}
             {%- if entry.html -%}
               <a href="{{ entry.html }}" title="Paper" style="margin-left: 0.3em;"><i class="fas fa-file-alt fa-sm"></i></a>
