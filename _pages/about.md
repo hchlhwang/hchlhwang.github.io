@@ -26,7 +26,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate at UMass Amherst developing **guide dog robots** for visually impaired individuals. My research spans **robot perception**, **planning**, and **human-robot interaction**.
+I am a Ph.D. candidate at UMass Amherst developing **[guide dog robots](/project/)** 🦮 for visually impaired individuals. My research spans **robot perception**, **planning**, and **human-robot interaction**.
 
 **Perception & Planning** — Building vision-based navigation systems using foundation models for safe, long-term autonomy.
 

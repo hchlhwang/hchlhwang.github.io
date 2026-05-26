@@ -42,6 +42,9 @@
             {%- if entry.video -%}
               <a href="{{ entry.video }}" title="Video" style="margin-left: 0.3em;"><i class="fas fa-video fa-sm"></i></a>
             {%- endif -%}
+            {%- if entry.code -%}
+              <a href="{{ entry.code }}" title="Code" style="margin-left: 0.3em;"><i class="fab fa-github fa-sm"></i></a>
+            {%- endif -%}
           </div>
           <!-- Author -->
           <div class="author">
@@ -161,9 +164,6 @@
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-          {%- endif %}
-          {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
