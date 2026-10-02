@@ -76,8 +76,7 @@ nav_order: 1
     </a>
   </div>
   <div class="col-sm-6 col-lg-4 mb-4">
-    <!-- Switch to https://guidedogrobot-navable.github.io/ once the project page is published. -->
-    <a href="https://huggingface.co/datasets/NavAble/NeurIPS_2026_BLV" target="_blank" rel="noopener">
+    <a href="https://guidedogrobot-navable.github.io/" target="_blank" rel="noopener">
       <div class="card hoverable">
         <img src="{{ '/assets/img/publication_preview/navable26.gif' | relative_url }}" class="card-img-top navable-preview" alt="NavAble: nine accessibility objects in simulated environments">
         <div class="card-body">
