@@ -11,6 +11,7 @@ nav_order: 1
   .project-grid .card.hoverable { height: 100%; transition: transform .2s ease, box-shadow .2s ease; }
   .project-grid a { text-decoration: none; }
   .project-grid .card-img-top { height: 180px; width: 100%; object-fit: cover; }
+  .project-grid .navable-preview { object-fit: contain; }
   .project-grid .card-title { font-size: 1.05rem; margin-bottom: .35rem; }
   .project-grid .card-text { font-size: .85rem; color: var(--global-text-color-light); margin-bottom: 0; }
   .project-section-title { color: var(--global-theme-color); border-bottom: 2px solid var(--global-divider-color); padding-bottom: .3rem; margin-top: 2rem; }
@@ -70,6 +71,18 @@ nav_order: 1
         <div class="card-body">
           <h3 class="card-title">System Integration &amp; Obstacle Avoidance</h3>
           <p class="card-text">Guide dog robot configuration and semantics-aware local path planning.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col-sm-6 col-lg-4 mb-4">
+    <!-- Switch to https://guidedogrobot-navable.github.io/ once the project page is published. -->
+    <a href="https://huggingface.co/datasets/NavAble/NeurIPS_2026_BLV" target="_blank" rel="noopener">
+      <div class="card hoverable">
+        <img src="{{ '/assets/img/publication_preview/navable26.gif' | relative_url }}" class="card-img-top navable-preview" alt="NavAble: nine accessibility objects in simulated environments">
+        <div class="card-body">
+          <h3 class="card-title">NavAble: Dataset for Blind Navigation</h3>
+          <p class="card-text">Large-scale real and synthetic data for accessibility-object perception and blind navigation.</p>
         </div>
       </div>
     </a>
