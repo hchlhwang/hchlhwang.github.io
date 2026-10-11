@@ -3,8 +3,10 @@
   .post-header { margin-bottom: 1.75rem; }
   .post-title { margin-bottom: .4rem; letter-spacing: -.035em; }
   .desc { font-size: 1.12rem; color: var(--global-text-color-light); }
-  .profile { margin-bottom: 1rem; }
+  .profile { max-width: 190px; margin-bottom: 1rem; }
   .profile img { box-shadow: none !important; }
+  article > .clearfix { display: flow-root; }
+  .clearfix > p { text-wrap: pretty; }
 }
 
 .profile-links {
