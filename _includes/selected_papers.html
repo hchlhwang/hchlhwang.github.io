@@ -1,8 +1,0 @@
-
-          <div class="publications">
-            <div class="section-heading">
-              <h2>Selected publications</h2>
-              <a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>
-            </div>
-            {% bibliography -f papers -q @*[featured=true]* %}
-          </div>
