@@ -17,4 +17,4 @@ I am a Ph.D. candidate in Computer Science at UMass Amherst. I build **[guide do
 
 My research connects **robot perception and navigation** with **human–robot interaction**. I study how people use mobility aids, then translate these insights into visual representations, navigation systems, and robot behaviors for everyday environments.
 
-I am advised by [Donghyun Kim](https://www.cics.umass.edu/people/kim-donghyun), and co-advised by [Ivan Lee](https://www.umass.edu/ials/people/sunghoon-ivan-lee) and [Joydeep Biswas](https://www.cs.utexas.edu/people/faculty-researchers/joydeep-biswas).
+I am advised by [Donghyun Kim](https://www.cics.umass.edu/about/directory/donghyun-kim), and co-advised by [Ivan Lee](https://www.umass.edu/ials/people/sunghoon-ivan-lee) and [Joydeep Biswas](https://www.cs.utexas.edu/people/faculty-researchers/joydeep-biswas).

@@ -255,7 +255,7 @@ permalink: /SToP/
             <a href="https://hchlhwang.github.io/">Hochul Hwang</a>
             <a href="https://www.linkedin.com/in/krisha-adhikari-b0691524b/">Krisha Adhikari</a>
             <a href="https://www.linkedin.com/in/satyashodhaka/?originalSubdomain=in">Satya Shodhaka</a>
-            <a href="https://www.umass.edu/robotics/people/donghyun-kim">Donghyun Kim</a>
+            <a href="https://www.cics.umass.edu/about/directory/donghyun-kim">Donghyun Kim</a>
             <br>
             DARoS Lab @ UMass Amherst
             <br><i>RiTA'24</i>
