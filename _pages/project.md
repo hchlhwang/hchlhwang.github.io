@@ -11,7 +11,7 @@ nav_order: 1
   .project-grid .card.hoverable { height: 100%; transition: transform .2s ease, box-shadow .2s ease; }
   .project-grid a { text-decoration: none; }
   .project-grid .card-img-top { height: 180px; width: 100%; object-fit: cover; }
-  .project-grid .navable-preview { object-fit: contain; }
+  .project-grid .navable-preview, .project-grid .guidedata-preview { object-fit: contain; }
   .project-grid .card-title { font-size: 1.05rem; margin-bottom: .35rem; }
   .project-grid .card-text { font-size: .85rem; color: var(--global-text-color-light); margin-bottom: 0; }
   .project-section-title { color: var(--global-theme-color); border-bottom: 2px solid var(--global-divider-color); padding-bottom: .3rem; margin-top: 2rem; }
@@ -23,7 +23,7 @@ nav_order: 1
   <div class="col-sm-6 col-lg-4 mb-4">
     <a href="https://guidedogrobot-navigation.github.io" target="_blank" rel="noopener">
       <div class="card hoverable">
-        <img src="{{ '/assets/img/publication_preview/hri-final.gif' | relative_url }}" class="card-img-top" alt="GuideNav">
+        <img src="{{ '/assets/img/publication_preview/hri26.gif' | relative_url }}" class="card-img-top" alt="GuideNav" loading="lazy" decoding="async">
         <div class="card-body">
           <h3 class="card-title">GuideNav: Vision-Only Long-Range Route Following 🏆</h3>
           <p class="card-text">Robust visual teach-and-repeat for kilometer-scale route following using only images.</p>
@@ -34,7 +34,7 @@ nav_order: 1
   <div class="col-sm-6 col-lg-4 mb-4">
     <a href="https://guidedogrobot-hgidataset.github.io" target="_blank" rel="noopener">
       <div class="card hoverable">
-        <img src="{{ '/assets/img/publication_preview/chi24.png' | relative_url }}" class="card-img-top" alt="GuideData">
+        <img src="{{ '/assets/img/publication_preview/chi24.gif' | relative_url }}" class="card-img-top guidedata-preview" alt="Handler–guide dog interactions: harness instruction, indoor guidance, stairs, blindfold training, outdoor navigation, and shopping" loading="lazy" decoding="async">
         <div class="card-body">
           <h3 class="card-title">GuideData: Handler-Guide Dog Interaction Dataset 🏆</h3>
           <p class="card-text">A dataset capturing interactions between handlers and guide dogs for guide dog robot design implications.</p>
@@ -141,3 +141,10 @@ nav_order: 1
     </a>
   </div>
 </div>
+
+
+<h2 class="project-section-title">Selected Press Coverage</h2>
+
+- **Quiet and stable guide dog robot locomotion:** IEEE Spectrum, *Video Friday* (May 2025).
+- **Handler–guide dog interactions and robot design:** IEEE Spectrum, *Video Friday* (May 2024), and UMass Amherst.
+- **Early guide dog robot research:** [A visit to Brockport helps scientists developing robotic guide dog](https://westsidenewsny.com/news/2022-07-24/a-visit-to-brockport-helps-scientists-developing-robotic-guide-dog/), *Westside News* (July 2022).

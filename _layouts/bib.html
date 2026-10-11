@@ -2,12 +2,12 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <div class="col-sm-3 {% if entry.preview %}publication-preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview rounded" src="{{ entry.preview }}" alt="{{ entry.title | escape }}" loading="lazy" decoding="async">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          <img class="preview rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ entry.title | escape }}" loading="lazy" decoding="async">
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
@@ -23,28 +23,33 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8" style="scroll-margin-top: 5rem;">
+        <div id="{{entry.key}}" class="col-sm-9" style="scroll-margin-top: 5rem;">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
-          <!-- Title with award, paper, and video icon links -->
+          <!-- Title with award and resource icon links -->
           <div class="title">
             {%- if entry.award -%}
-              <span class="badge award-badge" title="{{ entry.award }}">🏆 {{ entry.award }}</span>
+              <span class="badge award-badge" title="{{ entry.award }}">{{ entry.award }}</span>
             {%- endif -%}
             {%- if entry.oral -%}
               <span class="badge selection-badge" title="{{ entry.oral }}">{{ entry.oral }}</span>
             {%- endif -%}
             {{entry.title}}
+            <span class="publication-resource-links">
             {%- if entry.html -%}
-              <a href="{{ entry.html }}" title="Paper" style="margin-left: 0.3em;"><i class="fas fa-file-alt fa-sm"></i></a>
+              <a href="{{ entry.html }}" title="Paper" aria-label="Paper"><i class="fas fa-file-alt fa-sm" aria-hidden="true"></i></a>
+            {%- endif -%}
+            {%- if entry.website -%}
+              <a href="{{ entry.website }}" title="Project website" aria-label="Project website"><i class="fas fa-globe fa-sm" aria-hidden="true"></i></a>
             {%- endif -%}
             {%- if entry.video -%}
-              <a href="{{ entry.video }}" title="Video" style="margin-left: 0.3em;"><i class="fas fa-video fa-sm"></i></a>
+              <a href="{{ entry.video }}" title="Video" aria-label="Video"><i class="fas fa-video fa-sm" aria-hidden="true"></i></a>
             {%- endif -%}
             {%- if entry.code -%}
-              <a href="{{ entry.code }}" title="Code" style="margin-left: 0.3em;"><i class="fab fa-github fa-sm"></i></a>
+              <a href="{{ entry.code }}" title="Code" aria-label="Code"><i class="fab fa-github fa-sm" aria-hidden="true"></i></a>
             {%- endif -%}
+            </span>
           </div>
           <!-- Author -->
           <div class="author">
@@ -137,13 +142,13 @@
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{% if entrytype != blank and entry.year %}&nbsp;{% endif %}{{ entrymonth }}{{ entryyear | strip }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
         {%- endif %}
 
-          <!-- Links/Buttons (excluding abs, bib, html which are now inline) -->
+          <!-- Links/Buttons (resource icons are inline with the title) -->
           <div class="links">
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -178,9 +183,6 @@
             {%- else -%}
             <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
             {%- endif %}
-          {%- endif %}
-          {%- if entry.website %}
-            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>

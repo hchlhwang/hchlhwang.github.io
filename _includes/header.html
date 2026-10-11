@@ -85,7 +85,7 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.nav_title | default: p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -94,6 +94,9 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.cv_url | relative_url }}">CV</a>
+              </li>
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

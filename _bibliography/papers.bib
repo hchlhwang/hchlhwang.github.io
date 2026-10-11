@@ -84,6 +84,7 @@
 }
 
 @article{hwang2026navable,
+  featured={true},
   bibtex_show={true},
   preview={navable26.gif},
   abbr={NeurIPS},
@@ -91,17 +92,19 @@
   author={Hwang†, Hochul and Monon†, Jahir Sadik and Yang, Soowan and Patel, Shiven Umeshbhai and Nguyen, Anh Nhat Hong and Nguyen, Kien and Garg, Keshav and Gage, Dylan and Hordofaa, Duretti and Anjna, Anshu and Ohn-Bar, Eshed and Kim, Donghyun},
   journal={NeurIPS},
   year={2026},
+  html={https://neurips.cc/virtual/2026/loc/sydney/poster/138983},
   website={https://guidedogrobot-navable.github.io/},
   selected={true},
 }
 
 @article{hwang2026guidetwsi,
+  featured={true},
   bibtex_show={true},
   preview={tactile26.gif},
   abbr={ICRA},
   title={GuideTWSI: A Diverse Tactile Walking Surface Indicator Dataset from Synthetic and Real-World Images for Blind and Low-Vision Navigation},
   author={Hwang, Hochul and Yang, Soowan and Nguyen, Anh NH and Goel, Parth and Adhikari, Krisha and Lee, Sunghoon I and Biswas, Joydeep and Giudice, Nicholas A and Kim, Donghyun},
-  award={Award Finalist},
+  award={Best Paper Finalist},
   journal={ICRA},
   year={2026},
   abstract={Tactile Walking Surface Indicators (TWSIs) are safety-critical landmarks that blind and low-vision (BLV) pedestrians use to locate crossings and hazard zones. From our observation sessions with BLV guide dog handlers, trainers, and an O&M specialist, we confirmed the critical importance of reliable and accurate TWSI segmentation for navigation assistance of BLV individuals. Achieving such reliability requires large-scale annotated data. However, TWSIs are severely underrepresented in existing urban perception datasets, and even existing dedicated paving datasets are limited: they lack robot-relevant viewpoints (e.g., egocentric or top-down) and are geographically biased toward East Asian directional bars—raised parallel strips used for continuous guidance along sidewalks. This narrow focus overlooks truncated domes—rows of round bumps used primarily in North America and Europe as detectable warnings at curbs, crossings, and platform edges. As a result, models trained only on bar-centric data struggle to generalize to dome-based warnings, leading to missed detections and false stops in safety-critical environments. We introduce GuideTWSI, the largest and most diverse TWSI dataset, which combines a photorealistic synthetic dataset, carefully curated open-source tactile data, and quadruped real-world data collected and annotated by the authors. Notably, we developed an Unreal Engine-based synthetic data generation pipeline to obtain segmented, labeled data across diverse materials, lighting conditions, weather, and robot-relevant viewpoints. Extensive evaluations show that synthetic augmentation improves truncated dome segmentation across diverse state-of-the-art models, with gains of up to +29 mIoU points, and enhances cross-domain robustness. Moreover, real-robot experiments demonstrate accurate stoppings at truncated domes, with high repeatability and stop success rates (96.15%). The GuideTWSI dataset, model weights, and code are publicly released in https://guidedogrobot-tactile.github.io/.},
@@ -122,13 +125,14 @@
   year={2026},
   abstract={A quadruped robot is a promising system that can offer assistance comparable to that of dog guides due to its similar form factor. However, various challenges remain in making these robots a reliable option for blind and low-vision (BLV) individuals. Among these challenges, noise and jerky motion during walking are critical drawbacks of existing quadruped robots. While these issues have largely been overlooked in guide dog robot research, our interviews with guide dog handlers and trainers revealed that acoustic and physical disturbances can be particularly disruptive for BLV individuals, who rely heavily on environmental sounds for navigation. To address these issues, we developed a novel walking controller for slow stepping and smooth foot swing/contact while maintaining human walking speed, as well as robust and stable balance control. The controller integrates with a perception system to facilitate locomotion over non-flat terrains, such as stairs. Our controller was extensively tested on the Unitree Go1 robot and, when compared with other control methods, demonstrated significant noise reduction -- half of the default locomotion controller. In this study, we adopt a mixed-methods approach to evaluate its usability with BLV individuals. In our indoor walking experiments, participants compared our controller to the robot's default controller. Results demonstrated superior acceptance of our controller, highlighting its potential to improve the user experience of guide dog robots.},
   html={https://arxiv.org/abs/2505.11808},
-  video={https://youtu.be/8-pz_8H/qe6s},
+  video={https://www.youtube.com/watch?v=8-pz_8Hqe6s},
   selected={true},
 }
 
 @article{hwang2026guidenav,
+  featured={true},
   bibtex_show={true},
-  preview={hri-final.gif},
+  preview={hri26.gif},
   abbr={HRI},
   abstract={While commendable progress has been made in user-centric research on mobile assistive systems for blind and low-vision (BLV) individuals, references that directly inform robot navigation design remain rare. To bridge this gap, we conducted a comprehensive human study involving interviews with 26 guide dog handlers, four white cane users, nine guide dog trainers, and one O&M trainer, along with 15+ hours of observing guide dog-assisted walking. After de-identification, we open-sourced the dataset to promote human-centered development and informed decision-making for assistive systems for BLV people. Building on insights from this formative study, we developed GuideNav, a vision-only, teach-and-repeat navigation system. Inspired by how guide dogs are trained and assist their handlers, GuideNav autonomously repeats a path demonstrated by a sighted person using a robot. Specifically, the system constructs a topological representation of the taught route, integrates visual place recognition with temporal filtering, and employs a relative pose estimator to compute navigation actions---all without relying on costly, heavy, power-hungry sensors such as LiDAR. In field tests, GuideNav consistently achieved kilometer-scale route following across five outdoor environments, maintaining reliability despite noticeable scene variations between teach and repeat runs. A user study with 3 guide dog handlers and 1 guide dog trainer further confirmed the system's feasibility, marking (to our knowledge) the first demonstration of a quadruped mobile system retrieving a path in a manner comparable to guide dogs.},
   title={GuideNav: User-Informed Development of a Vision-Only Robotic Navigation Assistant For Blind Travelers},
@@ -196,12 +200,13 @@
 }
 
 @article{hwang2024gd,
+  featured={true},
   abbr={CHI},
-  preview={chi24.png},
+  preview={chi24.gif},
   abstract={Dog guides are favored by blind and low-vision (BLV) individuals for their ability to enhance independence and confidence by reducing safety concerns and increasing navigation efficiency compared to traditional mobility aids. However, only a relatively small proportion of BLV people work with dog guides due to their limited availability and associated maintenance responsibilities. There is considerable recent interest in addressing this challenge by developing legged guide dog robots. This study was designed to determine critical aspects of the handler-guide dog interaction and better understand handler needs to inform guide dog robot development. We conducted semi-structured interviews and observation sessions with 23 dog guide handlers and 5 trainers. Thematic analysis revealed critical limitations in guide dog work, desired personalization in handler-guide dog interaction, and important perspectives on future guide dog robots. Grounded on these findings, we discuss pivotal design insights for guide dog robots aimed for adoption within the BLV community.},
   title={Towards Robotic Companions: Understanding Handler-Guide Dog Interactions for Informed Guide Dog Robot Design},
-  award={Best Paper},
-  author={Hwang, Hochul and Jung, Hee-Tae and Giudice, Nicholas A and Biswas, Joydeep and and Lee, Sunghoon I and Kim, Donghyun},
+  award={Best Paper Award},
+  author={Hwang, Hochul and Jung, Hee-Tae and Giudice, Nicholas A and Biswas, Joydeep and Lee, Sunghoon I and Kim, Donghyun},
   journal={CHI},
   year={2024},
   video={https://www.youtube.com/watch?v=Tb81bPVinoY},
